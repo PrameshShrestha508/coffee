@@ -20,7 +20,7 @@ body {
   /* Dark Mode styles */
   body.dark-theme {
     color: #eee;
-    background: #121212;
+    background: #222;
   }
   body.dark-theme .dark{
   color:#d17721;
