@@ -12,6 +12,28 @@ h1, h2, h3, h4, h5, h6 {
     color: #2d2d43;
     font-family: 'Manrope', sans-serif;
 }
+body {
+    color: #222;
+    background: #fff;
+  }
+ 
+  /* Dark Mode styles */
+  body.dark-theme {
+    color: #eee;
+    background: #121212;
+  }
+  body.dark-theme .dark{
+  color:#d17721;
+  }
+  body.dark-theme h2{
+      color:#fff;
+  }
+  body.dark-theme h3{
+    color:#fff;
+}
+
+
+
 .banner{
     position:relative;
     width:100%;
@@ -65,7 +87,7 @@ font-family: 'Manrope', sans-serif;
     border-color: #d17721;
 }
 .btn.secondary{
-    margin-left:10px;
+    margin-left:10px; 
     color:#d17721;
     background-color: #fff;
 }
@@ -533,6 +555,7 @@ margin-top:20px;
     .btn{
         font-size:0.9em;
     }
+    
 }
 @media(max-width:407px){
     .banner .content h2{
