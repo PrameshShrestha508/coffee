@@ -20,6 +20,8 @@
                     <li><a href="" >Pages</a><img src="images/down.png"></li>
                     <li><a href="" >Blog</a><img src="images/down.png"></li>
                     <li><a href="#contact">Contact</a></li>
+                     <li><i class="fas fa-moon  dark"></i></li> 
+                     
                 </ul>
         </header>
 
@@ -186,6 +188,14 @@
         navigation.classList.toggle("active");
 
     }
+    // Select the button
+    const dark = document.querySelector('.dark');
+
+// Listen for a click on the button
+    dark.addEventListener('click', function() {
+    // Then toggle (add/remove) the .dark-theme class to the body
+    document.body.classList.toggle('dark-theme');  
+    })
     </script>
 </body>
 </html>
